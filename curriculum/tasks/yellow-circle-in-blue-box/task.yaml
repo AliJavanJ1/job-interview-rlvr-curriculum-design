@@ -1,0 +1,9 @@
+prompt:
+  type: textual
+  data: |
+    Put the yellow circle inside the blue box. Do not alter them.
+hints:
+  type: textual
+  data: |
+data:
+  seed-json: ./seed.json
