@@ -45,11 +45,11 @@ def _seed() -> int:
 def _base(x: float, y: float, width: float, height: float,
           background_color: str, stroke_color: str,
           fill_style: str, stroke_width: int, roughness: int,
-          stroke_style: str = "solid") -> dict[str, Any]:
+          stroke_style: str = "solid", **kwargs: Any) -> dict[str, Any]:
     return {
         "id": _id(),
         "x": x, "y": y, "width": width, "height": height,
-        "angle": 0,
+        "angle": kwargs.get("angle", 0),
         "strokeColor": stroke_color,
         "backgroundColor": background_color,
         "fillStyle": fill_style,
@@ -68,6 +68,7 @@ def _base(x: float, y: float, width: float, height: float,
         "updated": int(time.time() * 1000),
         "link": None,
         "locked": False,
+        "meta_label": kwargs.get("meta_label", None),
     }
 
 
@@ -80,8 +81,9 @@ def rectangle(
     roughness: int = 0,
     stroke_style: str = "solid",
     rounded: bool = False,
+    **kwargs: Any
 ) -> dict[str, Any]:
-    el = {"type": "rectangle", **_base(x, y, width, height, background_color, stroke_color, fill_style, stroke_width, roughness, stroke_style)}
+    el = {"type": "rectangle", **_base(x, y, width, height, background_color, stroke_color, fill_style, stroke_width, roughness, stroke_style, **kwargs)}
     if rounded:
         el["roundness"] = {"type": 3}
     return el
@@ -95,8 +97,9 @@ def ellipse(
     stroke_width: int = 2,
     roughness: int = 0,
     stroke_style: str = "solid",
+    **kwargs: Any
 ) -> dict[str, Any]:
-    return {"type": "ellipse", **_base(x, y, width, height, background_color, stroke_color, fill_style, stroke_width, roughness, stroke_style)}
+    return {"type": "ellipse", **_base(x, y, width, height, background_color, stroke_color, fill_style, stroke_width, roughness, stroke_style, **kwargs)}
 
 
 def diamond(
@@ -107,8 +110,9 @@ def diamond(
     stroke_width: int = 2,
     roughness: int = 0,
     stroke_style: str = "solid",
+    **kwargs: Any
 ) -> dict[str, Any]:
-    return {"type": "diamond", **_base(x, y, width, height, background_color, stroke_color, fill_style, stroke_width, roughness, stroke_style)}
+    return {"type": "diamond", **_base(x, y, width, height, background_color, stroke_color, fill_style, stroke_width, roughness, stroke_style, **kwargs)}
 
 
 def text(
@@ -117,12 +121,13 @@ def text(
     font_size: int = 20,
     stroke_color: str = STROKE_BLACK,
     font_family: int = 5,
+    **kwargs: Any
 ) -> dict[str, Any]:
     width = len(content) * font_size * 0.55
     height = font_size * 1.25
     return {
         "type": "text",
-        **_base(x, y, width, height, TRANSPARENT, stroke_color, "solid", 2, 0),
+        **_base(x, y, width, height, TRANSPARENT, stroke_color, "solid", 2, 0, **kwargs),
         "text": content,
         "originalText": content,
         "fontSize": font_size,

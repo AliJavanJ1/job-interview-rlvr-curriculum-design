@@ -26,6 +26,10 @@ class ExcalidrawElement:
     @property
     def y(self) -> float:
         return self._data.get("y", 0)
+    
+    @property
+    def angle(self) -> float:
+        return self._data.get("angle", 0)
 
     @property
     def width(self) -> float:
@@ -112,3 +116,9 @@ class ExcalidrawProject:
     
     def get_all_elements(self) -> list[ExcalidrawElement]:
         return [el for el in self._elements]
+    
+    def get_element_by_id(self, element_id: str) -> ExcalidrawElement | None:
+        for el in self._elements:
+            if el.id == element_id:
+                return el
+        return None
