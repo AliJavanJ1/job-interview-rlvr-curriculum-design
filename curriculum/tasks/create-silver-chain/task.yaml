@@ -1,0 +1,9 @@
+prompt:
+  type: textual
+  data: |
+    Create a closed chain of 10 identical circular ellipses linked together to form a closed chain. The ellipses should be silver in color (#C0C0C0).
+hints:
+  type: textual
+  data: |
+data:
+  seed-json: ./seed.json
