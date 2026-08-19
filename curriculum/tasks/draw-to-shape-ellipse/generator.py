@@ -3,7 +3,7 @@
 The seed shows an empty canvas. The agent task is to draw an ellipse on the canvas using "Draw to shape" option.
 
 Run:
-    python3 curriculum/tasks/draw-ellipse/generator.py
+    python3 curriculum/tasks/draw-to-shape-ellipse/generator.py
 """
 
 import sys
