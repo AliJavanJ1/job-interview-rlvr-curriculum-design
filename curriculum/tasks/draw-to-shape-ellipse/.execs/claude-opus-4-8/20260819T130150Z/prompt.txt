@@ -1,0 +1,1 @@
+Draw an ellipse using "Draw to shape" capability from more options menu with only one try and no further editing (don't mistake it with draw capability).

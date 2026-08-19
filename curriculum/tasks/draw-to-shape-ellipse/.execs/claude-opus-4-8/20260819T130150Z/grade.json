@@ -1,0 +1,36 @@
+{
+  "result": 0,
+  "debug": "FAIL only_one_element_exists: No new element found in the project.\nFAIL element_is_ellipse: No new element found to check if it is an ellipse.\nFAIL ellipse_is_big_enough_to_be_visible: No ellipse found to check if it is big enough to be visible. (width and height are at least 5)\nFAIL ellipse_is_drawn_to_shape_without_further_modifications: No ellipse present to check version.",
+  "metadata": {
+    "rubrics": {
+      "only_one_element_exists": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "No new element found in the project."
+      },
+      "element_is_ellipse": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "No new element found to check if it is an ellipse."
+      },
+      "ellipse_is_big_enough_to_be_visible": {
+        "pass": false,
+        "expected": true,
+        "actual": null,
+        "description": "",
+        "message": "No ellipse found to check if it is big enough to be visible. (width and height are at least 5)"
+      },
+      "ellipse_is_drawn_to_shape_without_further_modifications": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "No ellipse present to check version."
+      }
+    }
+  }
+}
