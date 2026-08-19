@@ -1,0 +1,9 @@
+prompt:
+  type: textual
+  data: |
+    Draw an ellipse using "Draw to shape" capability from more options menu with only one try and no further editing (don't mistake it with draw capability).
+hints:
+  type: textual
+  data: |
+data:
+  seed-json: ./seed.json
