@@ -123,7 +123,7 @@ def grader(input: GraderInput):
             is_balanced = False
         if not (base_x - _MOTION_TOLERANCE < diamond_x + diamond_width / 2 < base_x + base_width + _MOTION_TOLERANCE):
             is_balanced = False
-        if not (base_y - _MOTION_TOLERANCE < diamond_y + diamond_height < base_y + _MOTION_TOLERANCE):
+        if not (base_y - _MOTION_TOLERANCE <= diamond_y + diamond_height <= base_y + _MOTION_TOLERANCE):
             is_balanced = False
         
     rubrics.assertTrue("seed_diamond_is_balanced_on_base", is_balanced,

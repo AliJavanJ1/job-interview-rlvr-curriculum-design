@@ -40,3 +40,7 @@ precise-earase:
     seed_ellipse_4_position_preserved: Ellipse number 4 not present to check position;
     seed_ellipse_4_size_preserved: Ellipse number 4 not present to check size; seed_ellipse_4_color_preserved:
     Ellipse number 4 not present to check colors'
+balance-diamond-on-base:
+- path: curriculum\tasks\balance-diamond-on-base\.execs\claude-opus-4-8\20260820T130145Z
+  score: 0
+  message: 'seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.'
