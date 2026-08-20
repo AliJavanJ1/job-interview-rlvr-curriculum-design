@@ -6,7 +6,7 @@ Verifies that an Excalidraw project contains a closed chain of 10 silver (#C0C0C
 Rubrics:
 - ten_ellipses_created: Project has exactly 10 ellipses
 - ellipse_{idx}_is_circle: The ellipse number {idx} is a circle (width == height)
-- ellipse_{idx}_is_silver: The ellipse number {idx} has a silver background (#C0C0C0)
+- ellipse_{idx}_is_silver: The ellipse number {idx} has a silver stroke color (#C0C0C0)
 - ellipse_{idx}_size_matches_first: The ellipse number {idx} has the same size (width, height) as the first ellipse
 - ellipse_{idx}_overlaps_two_ellipses: The ellipse number {idx} overlaps with exactly 2 other ellipses
 - chain_with_10_ellipses_exists: The ellipses form a closed chain of 10 ellipses
@@ -15,6 +15,7 @@ Value mappings:
 - "silver" -> #C0C0C0 (not in Excalidraw's default palette)
 """
 
+from statistics import median
 import sys
 import json
 from pathlib import Path
@@ -53,12 +54,16 @@ def grader(input: GraderInput):
         )
     )
     
-    default_diameter = ellipses[0].width if n_ellipses > 0 else None
+    default_diameter = median([ellipses[i].width for i in range(n_ellipses)]) if n_ellipses > 0 else None
     adjacency = [set() for _ in range(n_ellipses)]
     center_points = [(el.x + el.width / 2, el.y + el.height / 2) for el in ellipses]
     for i in range(n_ellipses):
         for j in range(i + 1, n_ellipses):
-            if abs(center_points[i][0] - center_points[j][0])**2 + abs(center_points[i][1] - center_points[j][1])**2 < (default_diameter)**2:
+            if (
+                (center_points[i][0] - center_points[j][0])**2 + (center_points[i][1] - center_points[j][1])**2
+                < 
+                (min(ellipses[i].width, ellipses[i].height) / 2 + min(ellipses[j].width, ellipses[j].height) / 2)**2
+            ):
                 adjacency[i].add(j)
                 adjacency[j].add(i)
     
@@ -70,10 +75,10 @@ def grader(input: GraderInput):
                 f"Expected ellipse number {idx} to be a circle (width == height), got width={el.width}, height={el.height}"
             )
         )
-        rubrics.assertTrue(f"ellipse_{idx}_is_silver", el.background_color == _ELLIPSE_COLOR,
-            success=f"Ellipse number {idx} has a silver background ({_ELLIPSE_COLOR})",
+        rubrics.assertTrue(f"ellipse_{idx}_is_silver", el.stroke_color == _ELLIPSE_COLOR,
+            success=f"Ellipse number {idx} has a silver stroke color ({_ELLIPSE_COLOR})",
             failure=(
-                f"Expected ellipse number {idx} to have a silver background ({_ELLIPSE_COLOR}), got ({el.background_color})"
+                f"Expected ellipse number {idx} to have a silver stroke color ({_ELLIPSE_COLOR}), got ({el.stroke_color})"
             )
         )
         rubrics.assertTrue(f"ellipse_{idx}_size_matches_first", _size_unchanged(el, default_diameter, default_diameter),
@@ -92,20 +97,29 @@ def grader(input: GraderInput):
     visited = set()
     chain_length = 0
     closed_chain_found = False
-    previous = None
-    current = 0
-    while adjacency:
-        neighbors = adjacency[current]
-        next_ellipses = [n for n in neighbors if n != previous]
-        if len(next_ellipses) != 1:
-            break
-        visited.add(current)
-        chain_length += 1
-        previous = current
-        current = next_ellipses[0]
-        if current in visited:
-            closed_chain_found = True
-            break
+    if len(adjacency) > 0 and len(adjacency[0]) > 0:
+        previous = None
+        current = 0
+        while True:
+            visited.add(current)
+            chain_length += 1
+            
+            neighbors = adjacency[current]
+            next_ellipses = [n for n in neighbors if n != previous]
+            if previous is None and len(next_ellipses) == 2:
+                next_node = next_ellipses[0]
+            elif len(next_ellipses) == 1:
+                next_node = next_ellipses[0]
+            else:
+                break
+            
+            if next_node in visited:
+                if next_node == 0:
+                    closed_chain_found = True
+                break
+            
+            previous = current
+            current = next_node
         
     rubrics.assertTrue("chain_with_10_ellipses_exists", closed_chain_found and chain_length == 10,
         success="The ellipses form a closed chain of 10 ellipses",
