@@ -1,0 +1,162 @@
+{
+  "result": 0,
+  "debug": "PASS seed_ground_preserved: Project still has element ground\nPASS seed_ground_size_preserved: Element ground preserved size (width=754, height=222)\nPASS seed_ground_color_preserved: Element ground preserved color (stroke=#1e1e1e, background=transparent)\nPASS seed_ground_position_preserved: Element ground preserved position (x=562, y=554, angle=0)\nPASS seed_ground_text_preserved: Project still has element ground_text\nPASS seed_ground_text_size_preserved: Element ground_text preserved size (width=66.0, height=25.0)\nPASS seed_ground_text_color_preserved: Element ground_text preserved color (stroke=#1e1e1e, background=transparent)\nPASS seed_ground_text_position_preserved: Element ground_text preserved position (x=1336, y=658, angle=0)\nPASS seed_label_ground_text_preserved: Element ground_text preserved text (ground)\nPASS seed_base_preserved: Project still has element base\nPASS seed_base_size_preserved: Element base preserved size (width=10, height=181)\nPASS seed_base_color_preserved: Element base preserved color (stroke=#1e1e1e, background=transparent)\nPASS seed_base_position_preserved: Element base preserved position (x=795, y=370, angle=0)\nPASS seed_base_text_preserved: Project still has element base_text\nPASS seed_base_text_size_preserved: Element base_text preserved size (width=44.0, height=25.0)\nPASS seed_base_text_color_preserved: Element base_text preserved color (stroke=#1e1e1e, background=transparent)\nPASS seed_base_text_position_preserved: Element base_text preserved position (x=734, y=448, angle=0)\nPASS seed_label_base_text_preserved: Element base_text preserved text (base)\nPASS seed_diamond_preserved: Project still has element diamond\nPASS seed_diamond_size_preserved: Element diamond preserved size (width=218, height=266)\nPASS seed_diamond_color_preserved: Element diamond preserved color (stroke=#1e1e1e, background=transparent)\nFAIL seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.",
+  "metadata": {
+    "rubrics": {
+      "seed_ground_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has element ground"
+      },
+      "seed_ground_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element ground preserved size (width=754, height=222)"
+      },
+      "seed_ground_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element ground preserved color (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_ground_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element ground preserved position (x=562, y=554, angle=0)"
+      },
+      "seed_ground_text_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has element ground_text"
+      },
+      "seed_ground_text_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element ground_text preserved size (width=66.0, height=25.0)"
+      },
+      "seed_ground_text_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element ground_text preserved color (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_ground_text_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element ground_text preserved position (x=1336, y=658, angle=0)"
+      },
+      "seed_label_ground_text_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element ground_text preserved text (ground)"
+      },
+      "seed_base_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has element base"
+      },
+      "seed_base_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element base preserved size (width=10, height=181)"
+      },
+      "seed_base_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element base preserved color (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_base_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element base preserved position (x=795, y=370, angle=0)"
+      },
+      "seed_base_text_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has element base_text"
+      },
+      "seed_base_text_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element base_text preserved size (width=44.0, height=25.0)"
+      },
+      "seed_base_text_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element base_text preserved color (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_base_text_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element base_text preserved position (x=734, y=448, angle=0)"
+      },
+      "seed_label_base_text_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element base_text preserved text (base)"
+      },
+      "seed_diamond_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has element diamond"
+      },
+      "seed_diamond_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element diamond preserved size (width=218, height=266)"
+      },
+      "seed_diamond_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Element diamond preserved color (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_diamond_is_balanced_on_base": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "The diamond is not balanced on the base."
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Balance the diamond on the base without altering them.

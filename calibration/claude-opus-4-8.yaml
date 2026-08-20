@@ -192,3 +192,30 @@ create-silver-chain-v2:
   score: 1
 - path: curriculum\tasks\create-silver-chain-v2\.execs\claude-opus-4-8\20260820T173238Z
   score: 1
+balance-diamond-on-base-v2:
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T192955Z
+  score: 0
+  message: 'seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.'
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193035Z
+  score: 0
+  message: 'seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.'
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193124Z
+  score: 0
+  message: 'seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.'
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193211Z
+  score: 0
+  message: 'seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.'
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193257Z
+  score: 1
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193334Z
+  score: 0
+  message: 'seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.'
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193410Z
+  score: 1
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193458Z
+  score: 0
+  message: 'seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.'
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193546Z
+  score: 1
+- path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193810Z
+  score: 1
