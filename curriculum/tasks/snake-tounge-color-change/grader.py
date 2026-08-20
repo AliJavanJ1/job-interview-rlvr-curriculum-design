@@ -93,7 +93,7 @@ def grader(input: GraderInput):
                 )
             )
             
-            rubrics.assertTrue(f"seed_ellipse_{idx}_stroke_color_preserved", e_stroke_color == seed_stroke_color,
+            rubrics.assertTrue(f"seed_ellipse_{idx}_stroke_color_preserved", e_stroke_color.lower() == seed_stroke_color.lower(),
                 success=f"Elipse number {idx} preserved stroke color ({seed_stroke_color})",
                 failure=(
                     f"Ellipse number {idx} not present to check stroke color"

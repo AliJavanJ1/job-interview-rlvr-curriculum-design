@@ -12,7 +12,7 @@ Rubrics:
 - chain_with_10_ellipses_exists: The ellipses form a closed chain of 10 ellipses
 
 Value mappings:
-- "silver" -> #C0C0C0 (not in Excalidraw's default palette)
+- "silver" -> #c0c0c0 (not in Excalidraw's default palette)
 """
 
 from statistics import median
@@ -26,7 +26,7 @@ sys.path.insert(0, str(_root))
 from curriculum.sdk import ExcalidrawProject
 from curriculum import GraderInput, rubricgrader, rubrics
 
-_ELLIPSE_COLOR = "#C0C0C0"  # silver, not in Excalidraw's default palette
+_ELLIPSE_COLOR = "#c0c0c0"  # silver, not in Excalidraw's default palette
 _SIZE_TOLERANCE = 1.0  # px — absorbs float drift on save/reload, not enough to hide a resize
 
 
@@ -75,7 +75,7 @@ def grader(input: GraderInput):
                 f"Expected ellipse number {idx} to be a circle (width == height), got width={el.width}, height={el.height}"
             )
         )
-        rubrics.assertTrue(f"ellipse_{idx}_is_silver", el.stroke_color == _ELLIPSE_COLOR,
+        rubrics.assertTrue(f"ellipse_{idx}_is_silver", el.stroke_color.lower() == _ELLIPSE_COLOR.lower(),
             success=f"Ellipse number {idx} has a silver stroke color ({_ELLIPSE_COLOR})",
             failure=(
                 f"Expected ellipse number {idx} to have a silver stroke color ({_ELLIPSE_COLOR}), got ({el.stroke_color})"
