@@ -1,7 +1,7 @@
 prompt:
   type: textual
   data: |
-    Create a closed chain of 10 identical circular ellipses linked together to form a closed chain. The ellipses should be silver in color (#C0C0C0).
+    Create a closed chain of 10 identical circular ellipses (circles) linked together (by overlapping them) to form a closed circular chain. The ellipses stroke color should be exactly #C0C0C0 (silver).
 hints:
   type: textual
   data: |
