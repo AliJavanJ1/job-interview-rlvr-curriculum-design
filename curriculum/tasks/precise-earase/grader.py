@@ -82,7 +82,7 @@ def grader(input: GraderInput):
                 f"seed_ellipse_{idx}_preserved",
                 element is not None,
                 success=f"Project still has seed ellipse number {idx}",
-                failure=f"Elipse number {idx} from removed from the project.",
+                failure=f"Elipse number {idx} removed from the project.",
             )
 
             rubrics.assertTrue(
