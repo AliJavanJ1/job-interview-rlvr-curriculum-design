@@ -34,7 +34,7 @@ from curriculum import GraderInput, rubricgrader, rubrics
 _TOUNGE_COLOR = "#e03131"  # red, not in Excalidraw's default palette
 _SIZE_TOLERANCE = 1.0  # pixels
 _MOTION_TOLERANCE = 1.0  # pixels
-_ANGLE_TOLERANCE = 0.001  # degrees
+_ANGLE_TOLERANCE = 0.001  # radians
 
 def _size_unchanged(el, width: float, height: float) -> bool:
     return abs(el.width - width) <= _SIZE_TOLERANCE and abs(el.height - height) <= _SIZE_TOLERANCE
@@ -94,7 +94,7 @@ def grader(input: GraderInput):
                 )
             )
             
-            rubrics.assertTrue(f"seed_ellipse_{idx}_stroke_color_preserved", e_stroke_color.lower() == seed_stroke_color.lower(),
+            rubrics.assertTrue(f"seed_ellipse_{idx}_stroke_color_preserved", e_stroke_color == seed_stroke_color,
                 success=f"Elipse number {idx} preserved stroke color ({seed_stroke_color})",
                 failure=(
                     f"Ellipse number {idx} not present to check stroke color"

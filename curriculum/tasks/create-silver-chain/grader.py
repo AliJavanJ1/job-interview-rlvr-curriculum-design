@@ -75,7 +75,7 @@ def grader(input: GraderInput):
                 f"Expected ellipse number {idx} to be a circle (width == height), got width={el.width}, height={el.height}"
             )
         )
-        rubrics.assertTrue(f"ellipse_{idx}_is_silver", el.stroke_color.lower() == _ELLIPSE_COLOR.lower(),
+        rubrics.assertTrue(f"ellipse_{idx}_is_silver", el.stroke_color == _ELLIPSE_COLOR,
             success=f"Ellipse number {idx} has a silver stroke color ({_ELLIPSE_COLOR})",
             failure=(
                 f"Expected ellipse number {idx} to have a silver stroke color ({_ELLIPSE_COLOR}), got ({el.stroke_color})"

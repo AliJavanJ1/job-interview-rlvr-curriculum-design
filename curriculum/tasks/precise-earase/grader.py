@@ -23,7 +23,7 @@ from curriculum import GraderInput, rubricgrader, rubrics
 
 _SIZE_TOLERANCE = 1.0  # px
 _MOTION_TOLERANCE = 1.0  # px
-_ANGLE_TOLERANCE = 0.001  # degrees
+_ANGLE_TOLERANCE = 0.001  # radians
 
 
 def _size_unchanged(el, width: float, height: float) -> bool:
@@ -114,9 +114,9 @@ def grader(input: GraderInput):
             rubrics.assertTrue(
                 f"seed_ellipse_{idx}_color_preserved",
                 (
-                    element.stroke_color.lower() == seed_ellipse["strokeColor"].lower()
-                    and element.background_color.lower()
-                    == seed_ellipse["backgroundColor"].lower()
+                    element.stroke_color == seed_ellipse["strokeColor"]
+                    and element.background_color
+                    == seed_ellipse["backgroundColor"]
                     if element
                     else False
                 ),
