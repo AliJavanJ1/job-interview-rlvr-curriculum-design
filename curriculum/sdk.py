@@ -50,6 +50,10 @@ class ExcalidrawElement:
     @property
     def version(self) -> int:
         return self._data.get("version", 0)
+    
+    @property
+    def text(self) -> str:
+        return self._data.get("text", "")
 
     def is_rectangle(self) -> bool:
         return self.type == "rectangle"
