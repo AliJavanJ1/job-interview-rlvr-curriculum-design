@@ -44,3 +44,38 @@ balance-diamond-on-base:
 - path: curriculum\tasks\balance-diamond-on-base\.execs\claude-opus-4-8\20260820T130145Z
   score: 0
   message: 'seed_diamond_is_balanced_on_base: The diamond is not balanced on the base.'
+snake-tounge-color-change-v2:
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T160115Z
+  score: 0
+  message: 'seed_ellipse_2_background_color_changed: Expected elipse number 2 to have
+    background color changed to #e03131, got (transparent)'
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T160245Z
+  score: 0
+  message: 'seed_ellipse_2_background_color_changed: Expected elipse number 2 to have
+    background color changed to #e03131, got (transparent)'
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T160437Z
+  score: 0
+  message: 'seed_ellipse_2_background_color_changed: Expected elipse number 2 to have
+    background color changed to #e03131, got (transparent)'
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T160633Z
+  score: 0
+  message: 'seed_ellipse_2_background_color_changed: Expected elipse number 2 to have
+    background color changed to #e03131, got (transparent)'
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T160845Z
+  score: 1
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T161028Z
+  score: 1
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T161214Z
+  score: 1
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T161409Z
+  score: 0
+  message: 'seed_ellipse_2_background_color_changed: Expected elipse number 2 to have
+    background color changed to #e03131, got (transparent)'
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T161537Z
+  score: 0
+  message: 'seed_ellipse_2_background_color_changed: Expected elipse number 2 to have
+    background color changed to #e03131, got (transparent)'
+- path: curriculum\tasks\snake-tounge-color-change-v2\.execs\claude-opus-4-8\20260820T161731Z
+  score: 0
+  message: 'seed_ellipse_2_background_color_changed: Expected elipse number 2 to have
+    background color changed to #e03131, got (transparent)'

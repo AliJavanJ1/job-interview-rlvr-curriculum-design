@@ -1,0 +1,9 @@
+prompt:
+  type: textual
+  data: |
+    Change the background color of the snake's tongue to #e03131 (red).
+hints:
+  type: textual
+  data: |
+data:
+  seed-json: ./seed.json
