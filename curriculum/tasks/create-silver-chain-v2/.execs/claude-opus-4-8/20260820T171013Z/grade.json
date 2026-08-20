@@ -1,0 +1,274 @@
+{
+  "result": 0,
+  "debug": "FAIL ten_ellipses_created: Expected 10 ellipses, got 9 \u2014 1 missing ellipse(s).\nPASS ellipse_0_is_circle: Ellipse number 0 is a circle (width == height)\nPASS ellipse_0_is_silver: Ellipse number 0 has a silver stroke color (#c0c0c0)\nPASS ellipse_0_size_matches_first: Ellipse number 0 has the same size as the first ellipse\nPASS ellipse_0_overlaps_two_ellipses: Ellipse number 0 overlaps with exactly 2 other ellipses\nPASS ellipse_1_is_circle: Ellipse number 1 is a circle (width == height)\nPASS ellipse_1_is_silver: Ellipse number 1 has a silver stroke color (#c0c0c0)\nPASS ellipse_1_size_matches_first: Ellipse number 1 has the same size as the first ellipse\nPASS ellipse_1_overlaps_two_ellipses: Ellipse number 1 overlaps with exactly 2 other ellipses\nPASS ellipse_2_is_circle: Ellipse number 2 is a circle (width == height)\nPASS ellipse_2_is_silver: Ellipse number 2 has a silver stroke color (#c0c0c0)\nPASS ellipse_2_size_matches_first: Ellipse number 2 has the same size as the first ellipse\nPASS ellipse_2_overlaps_two_ellipses: Ellipse number 2 overlaps with exactly 2 other ellipses\nPASS ellipse_3_is_circle: Ellipse number 3 is a circle (width == height)\nPASS ellipse_3_is_silver: Ellipse number 3 has a silver stroke color (#c0c0c0)\nPASS ellipse_3_size_matches_first: Ellipse number 3 has the same size as the first ellipse\nPASS ellipse_3_overlaps_two_ellipses: Ellipse number 3 overlaps with exactly 2 other ellipses\nPASS ellipse_4_is_circle: Ellipse number 4 is a circle (width == height)\nPASS ellipse_4_is_silver: Ellipse number 4 has a silver stroke color (#c0c0c0)\nPASS ellipse_4_size_matches_first: Ellipse number 4 has the same size as the first ellipse\nFAIL ellipse_4_overlaps_two_ellipses: Expected ellipse number 4 to overlap with exactly 2 other ellipses, got 1\nPASS ellipse_5_is_circle: Ellipse number 5 is a circle (width == height)\nPASS ellipse_5_is_silver: Ellipse number 5 has a silver stroke color (#c0c0c0)\nPASS ellipse_5_size_matches_first: Ellipse number 5 has the same size as the first ellipse\nFAIL ellipse_5_overlaps_two_ellipses: Expected ellipse number 5 to overlap with exactly 2 other ellipses, got 1\nPASS ellipse_6_is_circle: Ellipse number 6 is a circle (width == height)\nPASS ellipse_6_is_silver: Ellipse number 6 has a silver stroke color (#c0c0c0)\nPASS ellipse_6_size_matches_first: Ellipse number 6 has the same size as the first ellipse\nPASS ellipse_6_overlaps_two_ellipses: Ellipse number 6 overlaps with exactly 2 other ellipses\nPASS ellipse_7_is_circle: Ellipse number 7 is a circle (width == height)\nPASS ellipse_7_is_silver: Ellipse number 7 has a silver stroke color (#c0c0c0)\nPASS ellipse_7_size_matches_first: Ellipse number 7 has the same size as the first ellipse\nPASS ellipse_7_overlaps_two_ellipses: Ellipse number 7 overlaps with exactly 2 other ellipses\nPASS ellipse_8_is_circle: Ellipse number 8 is a circle (width == height)\nPASS ellipse_8_is_silver: Ellipse number 8 has a silver stroke color (#c0c0c0)\nPASS ellipse_8_size_matches_first: Ellipse number 8 has the same size as the first ellipse\nPASS ellipse_8_overlaps_two_ellipses: Ellipse number 8 overlaps with exactly 2 other ellipses\nFAIL chain_with_10_ellipses_exists: Expected the ellipses to form a closed chain of 10 ellipses, got no closed chain",
+  "metadata": {
+    "rubrics": {
+      "ten_ellipses_created": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "Expected 10 ellipses, got 9 \u2014 1 missing ellipse(s)."
+      },
+      "ellipse_0_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 0 is a circle (width == height)"
+      },
+      "ellipse_0_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 0 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_0_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 0 has the same size as the first ellipse"
+      },
+      "ellipse_0_overlaps_two_ellipses": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 0 overlaps with exactly 2 other ellipses"
+      },
+      "ellipse_1_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 1 is a circle (width == height)"
+      },
+      "ellipse_1_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 1 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_1_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 1 has the same size as the first ellipse"
+      },
+      "ellipse_1_overlaps_two_ellipses": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 1 overlaps with exactly 2 other ellipses"
+      },
+      "ellipse_2_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 2 is a circle (width == height)"
+      },
+      "ellipse_2_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 2 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_2_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 2 has the same size as the first ellipse"
+      },
+      "ellipse_2_overlaps_two_ellipses": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 2 overlaps with exactly 2 other ellipses"
+      },
+      "ellipse_3_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 3 is a circle (width == height)"
+      },
+      "ellipse_3_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 3 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_3_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 3 has the same size as the first ellipse"
+      },
+      "ellipse_3_overlaps_two_ellipses": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 3 overlaps with exactly 2 other ellipses"
+      },
+      "ellipse_4_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 4 is a circle (width == height)"
+      },
+      "ellipse_4_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 4 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_4_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 4 has the same size as the first ellipse"
+      },
+      "ellipse_4_overlaps_two_ellipses": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "Expected ellipse number 4 to overlap with exactly 2 other ellipses, got 1"
+      },
+      "ellipse_5_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 5 is a circle (width == height)"
+      },
+      "ellipse_5_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 5 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_5_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 5 has the same size as the first ellipse"
+      },
+      "ellipse_5_overlaps_two_ellipses": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "Expected ellipse number 5 to overlap with exactly 2 other ellipses, got 1"
+      },
+      "ellipse_6_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 6 is a circle (width == height)"
+      },
+      "ellipse_6_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 6 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_6_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 6 has the same size as the first ellipse"
+      },
+      "ellipse_6_overlaps_two_ellipses": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 6 overlaps with exactly 2 other ellipses"
+      },
+      "ellipse_7_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 7 is a circle (width == height)"
+      },
+      "ellipse_7_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 7 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_7_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 7 has the same size as the first ellipse"
+      },
+      "ellipse_7_overlaps_two_ellipses": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 7 overlaps with exactly 2 other ellipses"
+      },
+      "ellipse_8_is_circle": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 8 is a circle (width == height)"
+      },
+      "ellipse_8_is_silver": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 8 has a silver stroke color (#c0c0c0)"
+      },
+      "ellipse_8_size_matches_first": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 8 has the same size as the first ellipse"
+      },
+      "ellipse_8_overlaps_two_ellipses": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Ellipse number 8 overlaps with exactly 2 other ellipses"
+      },
+      "chain_with_10_ellipses_exists": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "Expected the ellipses to form a closed chain of 10 ellipses, got no closed chain"
+      }
+    }
+  }
+}

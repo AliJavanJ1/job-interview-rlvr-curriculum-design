@@ -1,0 +1,9 @@
+prompt:
+  type: textual
+  data: |
+    Using Excalidraw, create a closed chain of 10 identical circular ellipses (circles) linked together (by overlapping them) to form a closed circular chain. The ellipses stroke color should be exactly #C0C0C0 (silver).
+hints:
+  type: textual
+  data: |
+data:
+  seed-json: ./seed.json
