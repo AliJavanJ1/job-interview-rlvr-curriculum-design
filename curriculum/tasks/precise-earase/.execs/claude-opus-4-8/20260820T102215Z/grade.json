@@ -1,0 +1,239 @@
+{
+  "result": 0,
+  "debug": "PASS seed_ellipse_0_preserved: Project still has seed ellipse number 0\nPASS seed_ellipse_0_position_preserved: Elipse number 0 preserved position (x=602, y=191, angle=0)\nPASS seed_ellipse_0_size_preserved: Elipse number 0 preserved size (width=174, height=154)\nPASS seed_ellipse_0_color_preserved: Elipse number 0 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)\nPASS seed_ellipse_1_preserved: Project still has seed ellipse number 1\nPASS seed_ellipse_1_position_preserved: Elipse number 1 preserved position (x=655, y=154, angle=0)\nPASS seed_ellipse_1_size_preserved: Elipse number 1 preserved size (width=151, height=170)\nPASS seed_ellipse_1_color_preserved: Elipse number 1 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)\nPASS seed_ellipse_2_preserved: Project still has seed ellipse number 2\nPASS seed_ellipse_2_position_preserved: Elipse number 2 preserved position (x=692, y=268, angle=0)\nPASS seed_ellipse_2_size_preserved: Elipse number 2 preserved size (width=267, height=215)\nPASS seed_ellipse_2_color_preserved: Elipse number 2 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)\nPASS seed_ellipse_3_preserved: Project still has seed ellipse number 3\nPASS seed_ellipse_3_position_preserved: Elipse number 3 preserved position (x=647, y=249, angle=0)\nPASS seed_ellipse_3_size_preserved: Elipse number 3 preserved size (width=252, height=175)\nPASS seed_ellipse_3_color_preserved: Elipse number 3 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)\nFAIL seed_ellipse_4_preserved: Elipse number 4 from removed from the project.\nFAIL seed_ellipse_4_position_preserved: Ellipse number 4 not present to check position\nFAIL seed_ellipse_4_size_preserved: Ellipse number 4 not present to check size\nFAIL seed_ellipse_4_color_preserved: Ellipse number 4 not present to check colors\nPASS seed_narrowest_ellipse_erased: The narrowest ellipse was erased\nPASS seed_ellipse_6_preserved: Project still has seed ellipse number 6\nPASS seed_ellipse_6_position_preserved: Elipse number 6 preserved position (x=612, y=369, angle=0)\nPASS seed_ellipse_6_size_preserved: Elipse number 6 preserved size (width=252, height=124)\nPASS seed_ellipse_6_color_preserved: Elipse number 6 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)\nPASS seed_ellipse_7_preserved: Project still has seed ellipse number 7\nPASS seed_ellipse_7_position_preserved: Elipse number 7 preserved position (x=751, y=235, angle=0)\nPASS seed_ellipse_7_size_preserved: Elipse number 7 preserved size (width=241, height=223)\nPASS seed_ellipse_7_color_preserved: Elipse number 7 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)\nPASS seed_ellipse_8_preserved: Project still has seed ellipse number 8\nPASS seed_ellipse_8_position_preserved: Elipse number 8 preserved position (x=686, y=361, angle=0)\nPASS seed_ellipse_8_size_preserved: Elipse number 8 preserved size (width=179, height=168)\nPASS seed_ellipse_8_color_preserved: Elipse number 8 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)",
+  "metadata": {
+    "rubrics": {
+      "seed_ellipse_0_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has seed ellipse number 0"
+      },
+      "seed_ellipse_0_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 0 preserved position (x=602, y=191, angle=0)"
+      },
+      "seed_ellipse_0_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 0 preserved size (width=174, height=154)"
+      },
+      "seed_ellipse_0_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 0 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_ellipse_1_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has seed ellipse number 1"
+      },
+      "seed_ellipse_1_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 1 preserved position (x=655, y=154, angle=0)"
+      },
+      "seed_ellipse_1_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 1 preserved size (width=151, height=170)"
+      },
+      "seed_ellipse_1_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 1 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_ellipse_2_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has seed ellipse number 2"
+      },
+      "seed_ellipse_2_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 2 preserved position (x=692, y=268, angle=0)"
+      },
+      "seed_ellipse_2_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 2 preserved size (width=267, height=215)"
+      },
+      "seed_ellipse_2_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 2 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_ellipse_3_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has seed ellipse number 3"
+      },
+      "seed_ellipse_3_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 3 preserved position (x=647, y=249, angle=0)"
+      },
+      "seed_ellipse_3_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 3 preserved size (width=252, height=175)"
+      },
+      "seed_ellipse_3_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 3 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_ellipse_4_preserved": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "Elipse number 4 from removed from the project."
+      },
+      "seed_ellipse_4_position_preserved": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "Ellipse number 4 not present to check position"
+      },
+      "seed_ellipse_4_size_preserved": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "Ellipse number 4 not present to check size"
+      },
+      "seed_ellipse_4_color_preserved": {
+        "pass": false,
+        "expected": true,
+        "actual": false,
+        "description": "",
+        "message": "Ellipse number 4 not present to check colors"
+      },
+      "seed_narrowest_ellipse_erased": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "The narrowest ellipse was erased"
+      },
+      "seed_ellipse_6_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has seed ellipse number 6"
+      },
+      "seed_ellipse_6_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 6 preserved position (x=612, y=369, angle=0)"
+      },
+      "seed_ellipse_6_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 6 preserved size (width=252, height=124)"
+      },
+      "seed_ellipse_6_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 6 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_ellipse_7_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has seed ellipse number 7"
+      },
+      "seed_ellipse_7_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 7 preserved position (x=751, y=235, angle=0)"
+      },
+      "seed_ellipse_7_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 7 preserved size (width=241, height=223)"
+      },
+      "seed_ellipse_7_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 7 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)"
+      },
+      "seed_ellipse_8_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Project still has seed ellipse number 8"
+      },
+      "seed_ellipse_8_position_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 8 preserved position (x=686, y=361, angle=0)"
+      },
+      "seed_ellipse_8_size_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 8 preserved size (width=179, height=168)"
+      },
+      "seed_ellipse_8_color_preserved": {
+        "pass": true,
+        "expected": true,
+        "actual": true,
+        "description": "",
+        "message": "Elipse number 8 preserved stroke and background colors (stroke=#1e1e1e, background=transparent)"
+      }
+    }
+  }
+}
