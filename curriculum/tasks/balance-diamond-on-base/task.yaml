@@ -1,0 +1,9 @@
+prompt:
+  type: textual
+  data: |
+    Balance the diamond on the base without altering them.
+hints:
+  type: textual
+  data: |
+data:
+  seed-json: ./seed.json
