@@ -34,12 +34,13 @@ from curriculum import GraderInput, rubricgrader, rubrics
 _TOUNGE_COLOR = "#e03131"  # red, not in Excalidraw's default palette
 _SIZE_TOLERANCE = 1.0  # pixels
 _MOTION_TOLERANCE = 1.0  # pixels
+_ANGLE_TOLERANCE = 0.001  # degrees
 
 def _size_unchanged(el, width: float, height: float) -> bool:
     return abs(el.width - width) <= _SIZE_TOLERANCE and abs(el.height - height) <= _SIZE_TOLERANCE
 
 def _position_unchanged(el, x: float, y: float, angle: float) -> bool:
-    return abs(el.x - x) <= _MOTION_TOLERANCE and abs(el.y - y) <= _MOTION_TOLERANCE and abs(el.angle - angle) <= _MOTION_TOLERANCE
+    return abs(el.x - x) <= _MOTION_TOLERANCE and abs(el.y - y) <= _MOTION_TOLERANCE and abs(el.angle - angle) <= _ANGLE_TOLERANCE
 
 @rubricgrader
 def grader(input: GraderInput):
