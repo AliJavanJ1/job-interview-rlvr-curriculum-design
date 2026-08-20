@@ -15,7 +15,7 @@ def run(
     seed: dict[str, Any],
     prompt: str,
     model: str,
-    headless: bool = True,
+    headless: bool = False,
     max_steps: int = 100,
 ) -> dict[str, Any]:
     """Run the task and return state, screenshots, and transcript."""

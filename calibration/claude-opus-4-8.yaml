@@ -219,3 +219,64 @@ balance-diamond-on-base-v2:
   score: 1
 - path: curriculum\tasks\balance-diamond-on-base-v2\.execs\claude-opus-4-8\20260820T193810Z
   score: 1
+precise-earase-v3:
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T202513Z
+  score: 0
+  message: 'seed_ellipse_4_preserved: Elipse number 4 removed from the project.; seed_ellipse_4_position_preserved:
+    Ellipse number 4 not present to check position; seed_ellipse_4_size_preserved:
+    Ellipse number 4 not present to check size; seed_ellipse_4_color_preserved: Ellipse
+    number 4 not present to check colors'
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T202554Z
+  score: 0
+  message: 'seed_ellipse_6_preserved: Elipse number 6 removed from the project.; seed_ellipse_6_position_preserved:
+    Ellipse number 6 not present to check position; seed_ellipse_6_size_preserved:
+    Ellipse number 6 not present to check size; seed_ellipse_6_color_preserved: Ellipse
+    number 6 not present to check colors'
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T202636Z
+  score: 1
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T202722Z
+  score: 0
+  message: 'seed_ellipse_2_preserved: Elipse number 2 removed from the project.; seed_ellipse_2_position_preserved:
+    Ellipse number 2 not present to check position; seed_ellipse_2_size_preserved:
+    Ellipse number 2 not present to check size; seed_ellipse_2_color_preserved: Ellipse
+    number 2 not present to check colors; seed_ellipse_4_preserved: Elipse number
+    4 removed from the project.; seed_ellipse_4_position_preserved: Ellipse number
+    4 not present to check position; seed_ellipse_4_size_preserved: Ellipse number
+    4 not present to check size; seed_ellipse_4_color_preserved: Ellipse number 4
+    not present to check colors'
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T202758Z
+  score: 0
+  message: 'seed_ellipse_4_preserved: Elipse number 4 removed from the project.; seed_ellipse_4_position_preserved:
+    Ellipse number 4 not present to check position; seed_ellipse_4_size_preserved:
+    Ellipse number 4 not present to check size; seed_ellipse_4_color_preserved: Ellipse
+    number 4 not present to check colors'
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T202842Z
+  score: 1
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T202945Z
+  score: 0
+  message: 'seed_ellipse_4_preserved: Elipse number 4 removed from the project.; seed_ellipse_4_position_preserved:
+    Ellipse number 4 not present to check position; seed_ellipse_4_size_preserved:
+    Ellipse number 4 not present to check size; seed_ellipse_4_color_preserved: Ellipse
+    number 4 not present to check colors'
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T203028Z
+  score: 0
+  message: 'seed_ellipse_0_preserved: Elipse number 0 removed from the project.; seed_ellipse_0_position_preserved:
+    Ellipse number 0 not present to check position; seed_ellipse_0_size_preserved:
+    Ellipse number 0 not present to check size; seed_ellipse_0_color_preserved: Ellipse
+    number 0 not present to check colors'
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T203109Z
+  score: 0
+  message: 'seed_ellipse_4_preserved: Elipse number 4 removed from the project.; seed_ellipse_4_position_preserved:
+    Ellipse number 4 not present to check position; seed_ellipse_4_size_preserved:
+    Ellipse number 4 not present to check size; seed_ellipse_4_color_preserved: Ellipse
+    number 4 not present to check colors'
+- path: curriculum\tasks\precise-earase-v3\.execs\claude-opus-4-8\20260820T203154Z
+  score: 0
+  message: 'seed_ellipse_0_preserved: Elipse number 0 removed from the project.; seed_ellipse_0_position_preserved:
+    Ellipse number 0 not present to check position; seed_ellipse_0_size_preserved:
+    Ellipse number 0 not present to check size; seed_ellipse_0_color_preserved: Ellipse
+    number 0 not present to check colors; seed_ellipse_4_preserved: Elipse number
+    4 removed from the project.; seed_ellipse_4_position_preserved: Ellipse number
+    4 not present to check position; seed_ellipse_4_size_preserved: Ellipse number
+    4 not present to check size; seed_ellipse_4_color_preserved: Ellipse number 4
+    not present to check colors'
