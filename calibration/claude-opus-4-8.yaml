@@ -280,3 +280,24 @@ precise-earase-v3:
     4 not present to check position; seed_ellipse_4_size_preserved: Ellipse number
     4 not present to check size; seed_ellipse_4_color_preserved: Ellipse number 4
     not present to check colors'
+yellow-circle-in-blue-box-v2:
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091247Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091319Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091347Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091414Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091437Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091506Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091538Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091602Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091634Z
+  score: 1
+- path: curriculum\tasks\yellow-circle-in-blue-box-v2\.execs\claude-opus-4-8\20260824T091706Z
+  score: 1
